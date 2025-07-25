@@ -101,7 +101,7 @@ class CDLL {
         head = node;
     }
 
-    // Optional: Utility to print list keys (for debugging)
+   
     void printLL() {
         if (head == null) return;
         System.out.print("Cache Order: " + head.key + " ");
